@@ -34,9 +34,12 @@ var lineage = {
         child: {
             first_child: 'Robb',
             second_child: 'Sansa',
+            third_child: 'Arya',
+            fourth_child: 'Bran',
+            fifth_child: 'Rickon'
         }
-    }
-  }
+    },
+  };
 
 app.get('/', function(req,res) {
   res.render('index', lineage);
